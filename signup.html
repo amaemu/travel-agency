@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create your Travel Agency account to access exclusive deals, manage bookings, and personalize your travel experience.">
+    <meta name="keywords" content="signup, create account, travel registration, user account">
+    <title>Sign Up - Travel Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Travel Agency</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="signup-section">
+            <div class="signup-container">
+                <h2>Create Your Account</h2>
+                <form id="signup-form">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email</label>
+                        <input type="email" id="signup-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" name="password" required minlength="8">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirmPassword" required minlength="8">
+                    </div>
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox" name="newsletter" checked> Subscribe to newsletter
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terms" required> I agree to the <a href="#" target="_blank">Terms of Service</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="signup-btn">Create Account</button>
+                </form>
+                <p class="login-link">Already have an account? <a href="login.html">Login here</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                    <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                    <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2023 Travel Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

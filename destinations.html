@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore popular travel destinations around the world. Find your next adventure with our curated list of amazing places.">
+    <meta name="keywords" content="travel destinations, vacation spots, travel guides, popular places">
+    <title>Destinations - Travel Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Travel Agency</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h2>Popular Destinations</h2>
+            <p>Discover amazing places to visit around the world.</p>
+        </section>
+
+        <section class="filters">
+            <div class="filter-options">
+                <select id="region-filter">
+                    <option value="">All Regions</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="americas">Americas</option>
+                    <option value="africa">Africa</option>
+                    <option value="oceania">Oceania</option>
+                </select>
+                <select id="budget-filter">
+                    <option value="">All Budgets</option>
+                    <option value="budget">Budget ($0-1000)</option>
+                    <option value="mid">Mid-Range ($1000-3000)</option>
+                    <option value="luxury">Luxury ($3000+)</option>
+                </select>
+                <select id="activity-filter">
+                    <option value="">All Activities</option>
+                    <option value="beach">Beach</option>
+                    <option value="city">City Exploration</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="culture">Culture</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="destinations-grid">
+            <div class="destination-card" data-region="europe" data-budget="mid" data-activity="city">
+                <img src="images/paris.jpg" alt="Eiffel Tower in Paris">
+                <div class="destination-info">
+                    <h3>Paris, France</h3>
+                    <p>The City of Light offers romance, art, and cuisine like no other.</p>
+                    <p class="price">From $1200</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="destination-card" data-region="asia" data-budget="budget" data-activity="beach">
+                <img src="images/bali.jpg" alt="Beautiful beach in Bali">
+                <div class="destination-info">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Tropical paradise with stunning beaches and rich culture.</p>
+                    <p class="price">From $800</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="destination-card" data-region="americas" data-budget="luxury" data-activity="adventure">
+                <img src="images/machu-picchu.jpg" alt="Machu Picchu ruins">
+                <div class="destination-info">
+                    <h3>Machu Picchu, Peru</h3>
+                    <p>Ancient Incan citadel surrounded by breathtaking mountains.</p>
+                    <p class="price">From $2500</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="destination-card" data-region="asia" data-budget="mid" data-activity="culture">
+                <img src="images/tokyo.jpg" alt="Tokyo skyline at night">
+                <div class="destination-info">
+                    <h3>Tokyo, Japan</h3>
+                    <p>Blend of traditional culture and cutting-edge technology.</p>
+                    <p class="price">From $1500</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="destination-card" data-region="africa" data-budget="mid" data-activity="adventure">
+                <img src="images/safari.jpg" alt="African safari landscape">
+                <div class="destination-info">
+                    <h3>Serengeti Safari, Tanzania</h3>
+                    <p>Witness the Great Migration and incredible wildlife.</p>
+                    <p class="price">From $1800</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="destination-card" data-region="oceania" data-budget="luxury" data-activity="beach">
+                <img src="images/great-barrier-reef.jpg" alt="Great Barrier Reef underwater">
+                <div class="destination-info">
+                    <h3>Great Barrier Reef, Australia</h3>
+                    <p>Dive into the world's largest coral reef system.</p>
+                    <p class="price">From $3000</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                    <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                    <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2023 Travel Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
